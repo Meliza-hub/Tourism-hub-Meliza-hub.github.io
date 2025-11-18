@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BAUKO - Discover Mountain Province</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg bg-success" data-bs-theme="dark">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="Images/Logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-middle"> Discover MP</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html"> <i class="bi bi-house-door"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html"> <i class="bi bi-people-fill"></i> About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="Destinations.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-geo-alt"></i> Destinations
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Sagada.html">Sagada</a></li>
+            <li><a class="dropdown-item active" href="Bauko.html">Bauko</a></li>
+            <li><a class="dropdown-item" href="Tadian.html">Tadian</a></li>
+            <li><a class="dropdown-item" href="Sabangan.html">Sabangan</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Bookings.html"> <i class="bi bi-calendar-check"></i> Bookings</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Locations.html"><i class="bi bi-map"></i> Locations & Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html"><i class="bi bi-telephone"></i> Contact Us</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <div class="d-flex">
+        <a class="btn btn-outline-success me-2" href="Login.html">Login/Register</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<section class="my-5">
+  <h1 class="text-center mb-4">BAUKO</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="Images/bauko rice terraces.jpg" height="400" width="500"  class="img-fluid rounded" alt="Bauko Rice Terraces">
+      </div>
+      <div class="col-md-6">
+        <h2>About Bauko</h2>
+        <p>Bauko is home to the world's highest rice terraces at 2,700 meters above sea level. Discover the engineering marvels of the Igorot people and their sustainable farming practices.</p>
+        <p>Key attractions include the stunning rice terraces, traditional weaving centers, and scenic mountain views.</p>
+        <button type="button" class="btn btn-success" onclick="window.location.href='Bookings.html'">Book a Tour</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- History Section -->
+<section class="my-5 bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">History of Bauko</h2>
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <p class="lead text-center mb-4">Bauko's history is deeply intertwined with the remarkable engineering feats of the Igorot people and their harmonious relationship with the high-altitude environment.</p>
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Ancient Engineering</h5>
+            <p>The Igorot people constructed the world's highest rice terraces over 2,000 years ago, demonstrating extraordinary agricultural innovation at 2,700 meters above sea level. These terraces represent a sustainable farming system that has endured for millennia.</p>
+          </div>
+          <div class="col-md-6">
+            <h5>Indigenous Heritage</h5>
+            <p>Bauko has preserved rich Igorot traditions, including intricate weaving techniques and communal farming practices. The community maintains strong cultural identity through traditional governance and social structures.</p>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-6">
+            <h5>Modern Development</h5>
+            <p>While maintaining cultural traditions, Bauko has embraced sustainable tourism and community-based initiatives. The terraces continue to be actively farmed, supporting local livelihoods and preserving ancestral lands.</p>
+          </div>
+          <div class="col-md-6">
+            <h5>Cultural Preservation</h5>
+            <p>UNESCO recognition has brought global attention to Bauko's terraces, leading to conservation efforts that balance tourism development with cultural preservation and environmental protection.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Activities Section -->
+<section class="my-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Activities & Adventures</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <i class="bi bi-mountain text-success" style="font-size: 3rem;"></i>
+            <h5 class="card-title mt-3">Terrace Exploration</h5>
+            <p class="card-text">Walk among the world's highest rice terraces and learn about Igorot farming techniques. Experience the breathtaking scale and engineering of these ancient structures.</p>
+            <ul class="list-unstyled">
+              <li>• Guided terrace tours</li>
+              <li>• Farming demonstrations</li>
+              <li>• Scenic viewpoints</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <i class="bi bi-scissors text-success" style="font-size: 3rem;"></i>
+            <h5 class="card-title mt-3">Weaving Workshops</h5>
+            <p class="card-text">Participate in traditional weaving sessions and learn about Igorot textile arts. Create your own souvenirs while supporting local artisans and preserving cultural heritage.</p>
+            <ul class="list-unstyled">
+              <li>• Hands-on weaving lessons</li>
+              <li>• Textile museum visits</li>
+              <li>• Artisan marketplace</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <i class="bi bi-camera text-success" style="font-size: 3rem;"></i>
+            <h5 class="card-title mt-3">Photography Tours</h5>
+            <p class="card-text">Capture stunning high-altitude landscapes and terrace vistas. Professional photography tours available to showcase Bauko's natural beauty and cultural landmarks.</p>
+            <ul class="list-unstyled">
+              <li>• Sunrise/sunset shoots</li>
+              <li>• Drone photography</li>
+              <li>• Cultural documentation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Travel Tips Section -->
+<section class="my-5 bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Travel Tips for Bauko</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Getting There</h4>
+        <ul>
+          <li><strong>By Bus:</strong> Take a bus from Manila to Baguio (8-10 hours), then transfer to Bauko (4-6 hours via Halsema Highway)</li>
+          <li><strong>By Van:</strong> Private vans and shared transportation available from Baguio to Bauko</li>
+          <li><strong>By Air:</strong> Fly to Cauayan Airport, then arrange ground transportation to Bauko</li>
+        </ul>
+        <h4>Best Time to Visit</h4>
+        <p>Visit during the dry season (December-May) for clear views of the terraces. The cool high-altitude climate makes it pleasant year-round.</p>
+      </div>
+      <div class="col-md-6">
+        <h4>What to Bring</h4>
+        <ul>
+          <li>Warm layers (temperatures can drop at night)</li>
+          <li>Comfortable walking shoes</li>
+          <li>Sun protection (high altitude sun)</li>
+          <li>Rain gear (weather can change quickly)</li>
+          <li>Modest clothing for cultural sites</li>
+        </ul>
+        <h4>Local Etiquette</h4>
+        <p>Respect the high-altitude environment and local customs. Ask permission before photographing people or sacred sites. Support local businesses and guides.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="my-5">
+  <h2 class="text-center mb-4">Attractions in Bauko</h2>
+  <div class="row row-cols-1 row-cols-md-3 w-75 mx-auto">
+    <div class="col">
+      <div class="card h-100 d-flex flex-column">
+        <img src="Images/bauko rice terraces.jpg" class="card-img-top" alt="Rice Terraces" height="200">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Rice Terraces</h5>
+          <p class="card-text flex-grow-1">UNESCO World Heritage Site featuring the highest rice terraces in the world at 2,700 meters above sea level. These ancient terraces showcase remarkable Igorot engineering and sustainable farming practices.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 d-flex flex-column">
+        <img src="Images/bauko weaving.jpg" class="card-img-top" alt="Weaving Center" height="200">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Weaving Center</h5>
+          <p class="card-text flex-grow-1">Visit traditional weaving centers to learn about Igorot textile arts and purchase authentic handwoven products. Experience the intricate patterns and cultural significance of indigenous craftsmanship.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 d-flex flex-column">
+        <img src="Images/bauko mountain view.jpg" class="card-img-top" alt="Mountain Views" height="200">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Mountain Views</h5>
+          <p class="card-text flex-grow-1">Enjoy breathtaking panoramic views of the Cordillera Mountains and experience the serene highland landscape. Perfect for photography and peaceful contemplation.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="my-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Photo Gallery</h2>
+    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-3">
+      <div class="col">
+        <img src="Images/bauko rice terraces.jpg" class="rounded gallery-img" alt="Bauko Rice Terraces" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/Bauko.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/Iyaman Farm-bauko.jpg" class="rounded gallery-img" alt="Bauko Weaving Center" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/hero.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/mt polis bauko.jpg" class="rounded gallery-img" alt="Bauko Mountain Views" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/Hero a.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/pengsaen fall bauko.jpg" class="rounded gallery-img" alt="Bauko Cultural Heritage" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/Bauko.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/bauko sunset.jpg" class="rounded gallery-img" alt="Bauko Igorot Culture" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/hero.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/bauko tourist.jpg" class="rounded gallery-img" alt="Bauko Nature" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/Hero a.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/bauko farm.jpg" class="rounded gallery-img" alt="Bauko Adventures" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/Bauko.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/bauko cultural.avif" class="rounded gallery-img" alt="Bauko Landscapes" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/hero.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/bauko sunset.jpg" class="rounded gallery-img" alt="Bauko Traditions" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/Hero a.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/bauko rice terraces.jpg" class="rounded gallery-img" alt="Bauko High Altitude" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/Bauko.jpg">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal for Gallery Lightbox -->
+<div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="galleryModalLabel">Gallery Image</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img id="modalImage" src="" class="img-fluid" alt="Gallery Image">
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="my-5 bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Best Time to Visit Bauko</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <p class="text-center">Bauko is ideal to visit during the dry season from December to May when the weather is cool and clear, making it perfect for exploring the rice terraces. The wet season from June to November brings lush greenery but can be challenging for outdoor activities.</p>
+        <div class="row text-center mt-4">
+          <div class="col-md-6">
+            <h5>Dry Season</h5>
+            <p>December - May</p>
+            <p>Cool temperatures, clear views</p>
+          </div>
+          <div class="col-md-6">
+            <h5>Wet Season</h5>
+            <p>June - November</p>
+            <p>Lush landscapes, occasional showers</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="my-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Local Cuisine & Culture</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Traditional Igorot Dishes</h4>
+        <ul>
+          <li><strong>Tinuno:</strong> Smoked meat seasoned with herbs and spices</li>
+          <li><strong>Pinakbet:</strong> Mixed vegetables with bagoong alamang</li>
+          <li><strong>Etag:</strong> Smoked pork or beef, a local specialty</li>
+          <li><strong>Vegetable stews:</strong> Fresh mountain vegetables and herbs</li>
+        </ul>
+        <p>Try authentic Igorot cuisine at local eateries and homestays.</p>
+      </div>
+      <div class="col-md-6">
+        <h4>Cultural Experiences</h4>
+        <p>Bauko offers deep cultural immersion:</p>
+        <ul>
+          <li>Traditional weaving workshops</li>
+          <li>Igorot dance and music performances</li>
+          <li>Visit to indigenous communities</li>
+          <li>Learn about rice terrace farming</li>
+        </ul>
+        <p>Engage respectfully with local traditions and customs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="my-5 bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Accommodation Options</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <h5 class="card-title">Budget Lodges</h5>
+            <p class="card-text">Simple accommodations starting from PHP 400/night. Clean and basic facilities with mountain views.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <h5 class="card-title">Mid-range Inns</h5>
+            <p class="card-text">Comfortable stays with amenities, ranging from PHP 1,000-2,500/night.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <h5 class="card-title">Homestays</h5>
+            <p class="card-text">Stay with local families for cultural immersion. Meals included, around PHP 700-1,000/night.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer -->
+<footer class="py-5" style="background-color: #1b4332;">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Destinations</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="Sagada.html" class="nav-link p-0 text-body-secondary">Sagada</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Bauko.html" class="nav-link p-0 text-body-secondary">Bauko</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Tadian.html" class="nav-link p-0 text-body-secondary">Tadian</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Sabangan.html" class="nav-link p-0 text-body-secondary">Sabangan</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>About Us</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="About.html" class="nav-link p-0 text-body-secondary">Our Story</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Contact.html" class="nav-link p-0 text-body-secondary">Contact</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Locations.html" class="nav-link p-0 text-body-secondary">Locations</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Support</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Help Center</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Booking Status</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Cancellations</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p style="color: white;">Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address" />
+            <button class="btn btn-success" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p style="color: white;">&copy; 2024 Discover Mountain Province. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="link-body-emphasis" href="#"><i class="bi bi-twitter"></i></a>
+        </li>
+        <li class="ms-3">
+          <a class="link-body-emphasis" href="#"><i class="bi bi-instagram"></i></a>
+        </li>
+        <li class="ms-3">
+          <a class="link-body-emphasis" href="#"><i class="bi bi-facebook"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const searchForm = document.querySelector('form[role="search"]');
+  if (searchForm) {
+    searchForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const query = document.querySelector('input[type="search"]').value.trim().toLowerCase();
+      if (query === 'sagada') {
+        window.location.href = 'Sagada.html';
+      } else if (query === 'bauko') {
+        window.location.href = 'Bauko.html';
+      } else if (query === 'tadian') {
+        window.location.href = 'Tadian.html';
+      } else if (query === 'sabangan') {
+        window.location.href = 'Sabangan.html';
+      } else {
+        window.location.href = 'Destinations.html';
+      }
+    });
+  }
+
+  // Gallery modal functionality
+  const galleryModal = document.getElementById('galleryModal');
+  const modalImage = document.getElementById('modalImage');
+  const galleryImages = document.querySelectorAll('.gallery-img');
+
+  galleryImages.forEach(img => {
+    img.addEventListener('click', function() {
+      const src = this.getAttribute('data-src');
+      modalImage.src = src;
+      modalImage.alt = this.alt;
+    });
+  });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,255 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bookings - Discover MP</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg bg-success" data-bs-theme="dark">
+  <div class="container-fluid">
+     <a class="navbar-brand" href="index.html"><img src="Images/Logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-middle"> Discover MP</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html"> <i class="bi bi-house-door"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html"> <i class="bi bi-people-fill"></i> About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="Destinations.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-geo-alt"></i> Destinations
+          </a>
+              <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Sagada.html">Sagada</a></li>
+            <li><a class="dropdown-item" href="Bauko.html">Bauko</a></li>
+            <li><a class="dropdown-item" href="Tadian.html">Tadian</a></li>
+            <li><a class="dropdown-item" href="Sabangan.html">Sabangan</a></li>
+          </ul>
+        <li class="nav-item">
+          <a class="nav-link active" href="Bookings.html"> <i class="bi bi-calendar-check"></i> Bookings</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Locations.html"><i class="bi bi-map"></i> Locations & Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html"><i class="bi bi-telephone"></i> Contact Us</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <div class="d-flex">
+        <a class="btn btn-outline-success me-2" href="Login.html">Login/Register</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<section class="my-5">
+  <h1 class="text-center mb-4">Tour Bookings</h1>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="card shadow">
+          <div class="card-body">
+            <h5 class="card-title mb-4">Book Your MP Adventure</h5>
+            <form id="bookingForm">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="destination" class="form-label">Select Destination</label>
+                  <select class="form-select" id="destination" required>
+                    <option value="">Choose a destination...</option>
+                    <option value="sagada">Sagada</option>
+                    <option value="bauko">Bauko</option>
+                    <option value="tadian">Tadian</option>
+                    <option value="sabangan">Sabangan</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="tourType" class="form-label">Tour Type</label>
+                  <select class="form-select" id="tourType" required>
+                    <option value="">Select tour type...</option>
+                    <option value="cultural">Cultural Experience</option>
+                    <option value="adventure">Adventure Tour</option>
+                    <option value="nature">Nature & Hiking</option>
+                    <option value="homestay">Homestay Experience</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="checkinDate" class="form-label">Check-in Date</label>
+                  <input type="date" class="form-control" id="checkinDate" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="checkoutDate" class="form-label">Check-out Date</label>
+                  <input type="date" class="form-control" id="checkoutDate" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="guests" class="form-label">Number of Guests</label>
+                  <select class="form-select" id="guests" required>
+                    <option value="">Select guests...</option>
+                    <option value="1">1 Guest</option>
+                    <option value="2">2 Guests</option>
+                    <option value="3">3 Guests</option>
+                    <option value="4">4 Guests</option>
+                    <option value="5+">5+ Guests</option>
+                  </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="accommodation" class="form-label">Accommodation Type</label>
+                  <select class="form-select" id="accommodation" required>
+                    <option value="">Choose accommodation...</option>
+                    <option value="homestay">Homestay</option>
+                    <option value="lodge">Budget Lodge</option>
+                    <option value="inn">Mid-range Inn</option>
+                    <option value="resort">Resort</option>
+                  </select>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="specialRequests" class="form-label">Special Requests</label>
+                <textarea class="form-control" id="specialRequests" rows="3" placeholder="Any special dietary requirements, accessibility needs, or other requests..."></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="contactInfo" class="form-label">Contact Information</label>
+                <input type="email" class="form-control" id="contactInfo" placeholder="Your email address" required>
+              </div>
+              <div class="d-grid">
+                <button type="submit" class="btn btn-success btn-lg">Submit Booking Request</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <i class="bi bi-calendar-check text-success" style="font-size: 3rem;"></i>
+            <h5 class="card-title mt-3">Easy Booking</h5>
+            <p class="card-text">Simple online booking process with instant confirmation</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <i class="bi bi-shield-check text-success" style="font-size: 3rem;"></i>
+            <h5 class="card-title mt-3">Secure Payment</h5>
+            <p class="card-text">Safe and secure payment processing for your peace of mind</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <i class="bi bi-headset text-success" style="font-size: 3rem;"></i>
+            <h5 class="card-title mt-3">24/7 Support</h5>
+            <p class="card-text">Round-the-clock customer support for all your travel needs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer -->
+<footer class="py-5" style="background-color: #1b4332; color: white;">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5 style="color: white;">Destinations</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="Sagada.html" class="nav-link p-0" style="color: white;">Sagada</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Bauko.html" class="nav-link p-0" style="color: white;">Bauko</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Tadian.html" class="nav-link p-0" style="color: white;">Tadian</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Sabangan.html" class="nav-link p-0" style="color: white;">Sabangan</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5 style="color: white;">About Us</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="About.html" class="nav-link p-0" style="color: white;">Our Story</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Contact.html" class="nav-link p-0" style="color: white;">Contact</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Locations.html" class="nav-link p-0" style="color: white;">Locations & Map</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5 style="color: white;">Support</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0" style="color: white;">Help Center</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0" style="color: white;">Booking Status</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0" style="color: white;">Cancellations</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0" style="color: white;">FAQs</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5 style="color: white;">Subscribe to our newsletter</h5>
+          <p style="color: white;">Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address" />
+            <button class="btn btn-success" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>&copy; 2024 Discover MP. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="link-body-emphasis" href="#" style="color: white;"><i class="bi bi-twitter"></i></a>
+        </li>
+        <li class="ms-3">
+          <a class="link-body-emphasis" href="#" style="color: white;"><i class="bi bi-instagram"></i></a>
+        </li>
+        <li class="ms-3">
+          <a class="link-body-emphasis" href="#" style="color: white;"><i class="bi bi-facebook"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>

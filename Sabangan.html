@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SABANGAN - Discover Mountain Province</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg bg-success" data-bs-theme="dark">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="Images/Logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-middle"> Discover MP</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html"> <i class="bi bi-house-door"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html"> <i class="bi bi-people-fill"></i> About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="Destinations.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-geo-alt"></i> Destinations
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Sagada.html">Sagada</a></li>
+            <li><a class="dropdown-item" href="Bauko.html">Bauko</a></li>
+            <li><a class="dropdown-item" href="Tadian.html">Tadian</a></li>
+            <li><a class="dropdown-item active" href="Sabangan.html">Sabangan</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Bookings.html"> <i class="bi bi-calendar-check"></i> Bookings</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Locations.html"><i class="bi bi-map"></i> Locations & Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html"><i class="bi bi-telephone"></i> Contact Us</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <div class="d-flex">
+        <a class="btn btn-outline-success me-2" href="Login.html">Login/Register</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<section class="my-5">
+  <h1 class="text-center mb-4">SABANGAN</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="Images/sabangan landscape.jpg" height="400" width="400" class="img-fluid rounded" alt="Sabangan">
+      </div>
+      <div class="col-md-6">
+        <h2>About Sabangan</h2>
+        <p>Sabangan is a municipality in the Mountain Province of the Philippines. It is known for its rich cultural heritage, stunning natural landscapes, and warm hospitality. Sabangan offers a peaceful retreat for those seeking to connect with nature and indigenous traditions.</p>
+        <p>Key attractions include the Sabangan Rice Terraces, traditional weaving centers, and opportunities for hiking and cultural immersion.</p>
+        <button type="button" class="btn btn-success" onclick="window.location.href='Bookings.html'">Book a Tour</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- History Section -->
+<section class="my-5 bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">History of Sabangan</h2>
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <p class="lead text-center mb-4">Sabangan's history is rooted in the resilient spirit of the Igorot people and their harmonious coexistence with the rugged Cordillera landscape.</p>
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Ancient Settlements</h5>
+            <p>The Igorot communities of Sabangan have thrived for centuries, developing sophisticated agricultural systems and social structures adapted to the challenging mountain environment.</p>
+          </div>
+          <div class="col-md-6">
+            <h5>Rice Terrace Legacy</h5>
+            <p>The Sabangan Rice Terraces represent millennia of agricultural innovation, with terraced fields carved into steep slopes demonstrating extraordinary engineering and sustainable farming practices.</p>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-6">
+            <h5>Cultural Preservation</h5>
+            <p>Sabangan has maintained strong Igorot traditions, including unique dialects, ceremonial practices, and communal governance systems that continue to guide daily life.</p>
+          </div>
+          <div class="col-md-6">
+            <h5>Modern Conservation</h5>
+            <p>Today, Sabangan actively participates in cultural preservation efforts, balancing tourism development with environmental protection and traditional livelihood practices.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Activities Section -->
+<section class="my-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Activities & Adventures</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <i class="bi bi-mountain text-success" style="font-size: 3rem;"></i>
+            <h5 class="card-title mt-3">Terrace Exploration</h5>
+            <p class="card-text">Discover the UNESCO-listed rice terraces through guided walks and learn about Igorot farming techniques. Experience the scale and ingenuity of these ancient agricultural wonders.</p>
+            <ul class="list-unstyled">
+              <li>• Guided terrace tours</li>
+              <li>• Farming demonstrations</li>
+              <li>• Scenic viewpoints</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <i class="bi bi-tree text-success" style="font-size: 3rem;"></i>
+            <h5 class="card-title mt-3">Forest Hiking</h5>
+            <p class="card-text">Explore lush mountain trails and pristine forests. Encounter diverse wildlife, cascading waterfalls, and panoramic views of the Cordillera mountain range.</p>
+            <ul class="list-unstyled">
+              <li>• Guided forest hikes</li>
+              <li>• Wildlife observation</li>
+              <li>• Waterfall visits</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <i class="bi bi-palette text-success" style="font-size: 3rem;"></i>
+            <h5 class="card-title mt-3">Cultural Workshops</h5>
+            <p class="card-text">Participate in traditional weaving, music, and dance workshops. Learn about Igorot art forms and create souvenirs while supporting local artisans and cultural heritage.</p>
+            <ul class="list-unstyled">
+              <li>• Weaving demonstrations</li>
+              <li>• Music and dance sessions</li>
+              <li>• Artisan marketplace</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Travel Tips Section -->
+<section class="my-5 bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Travel Tips for Sabangan</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Getting There</h4>
+        <ul>
+          <li><strong>By Bus:</strong> Take a bus from Manila to Baguio (8-10 hours), then transfer to Sabangan (4-5 hours via Halsema Highway)</li>
+          <li><strong>By Van:</strong> Private vans available from Baguio for groups</li>
+          <li><strong>By Air:</strong> Fly to Cauayan Airport, then arrange ground transportation</li>
+        </ul>
+        <h4>Best Time to Visit</h4>
+        <p>Visit during the dry season (November-April) for clear trails and vibrant terrace views. The cool mountain climate is pleasant year-round.</p>
+      </div>
+      <div class="col-md-6">
+        <h4>What to Bring</h4>
+        <ul>
+          <li>Comfortable hiking shoes</li>
+          <li>Light jacket for cooler evenings</li>
+          <li>Rain gear (weather can change)</li>
+          <li>Sun protection</li>
+          <li>Modest clothing for cultural sites</li>
+        </ul>
+        <h4>Local Etiquette</h4>
+        <p>Respect the natural environment and local customs. Ask permission before photographing people or sacred sites. Support local guides and contribute to conservation efforts.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="my-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Photo Gallery</h2>
+    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-3">
+      <div class="col">
+        <img src="Images/sabangan cultural heritage.jpg" class="rounded gallery-img" alt="Sabangan Rice Terraces" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/hero.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/sabangan gal.jpg" class="rounded gallery-img" alt="Sabangan Cultural Village" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/hero 2.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/sabangan gallery.jpg" class="rounded gallery-img" alt="Sabangan Hiking Trails" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/Hero a.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/sabangan landscape.jpg" class="rounded gallery-img" alt="Sabangan Cultural Heritage" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/hero.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/sabangan mount.jpg" class="rounded gallery-img" alt="Sabangan Igorot Culture" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/hero 2.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/sabangan rice.jpg" class="rounded gallery-img" alt="Sabangan Nature" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/Hero a.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/sabangan tourist.jpg" class="rounded gallery-img" alt="Sabangan Adventures" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/hero.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/sabangan weaving.jpg" class="rounded gallery-img" alt="Sabangan Landscapes" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/hero 2.jpg">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal for Gallery Lightbox -->
+<div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="galleryModalLabel">Gallery Image</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img id="modalImage" src="" class="img-fluid" alt="Gallery Image">
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="my-5 bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Best Time to Visit Sabangan</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <p class="text-center">Sabangan is best explored during the dry season from November to April when trails are accessible and the rice terraces are vibrant. The wet season from May to October brings lush greenery but can make hiking challenging.</p>
+        <div class="row text-center mt-4">
+          <div class="col-md-6">
+            <h5>Dry Season</h5>
+            <p>November - April</p>
+            <p>Clear weather, accessible trails</p>
+          </div>
+          <div class="col-md-6">
+            <h5>Wet Season</h5>
+            <p>May - October</p>
+            <p>Lush landscapes, misty mountains</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="my-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Local Cuisine & Culture</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Traditional Igorot Dishes</h4>
+        <ul>
+          <li><strong>Pinikpikan:</strong> Chicken cooked with herbs and spices</li>
+          <li><strong>Etag:</strong> Smoked pork or beef, a staple</li>
+          <li><strong>Pinuneg:</strong> Steamed rice in banana leaves</li>
+          <li><strong>Vegetable dishes:</strong> Fresh mountain produce</li>
+        </ul>
+        <p>Enjoy authentic Igorot cuisine prepared with traditional methods.</p>
+      </div>
+      <div class="col-md-6">
+        <h4>Cultural Experiences</h4>
+        <p>Sabangan offers deep cultural immersion:</p>
+        <ul>
+          <li>Traditional Igorot festivals</li>
+          <li>Indigenous music and storytelling</li>
+          <li>Visit to ancestral sites</li>
+          <li>Learn about rice terrace farming</li>
+        </ul>
+        <p>Connect with the rich heritage of the Igorot people.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="my-5 bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Accommodation Options</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <h5 class="card-title">Budget Lodges</h5>
+            <p class="card-text">Basic accommodations starting from PHP 350/night. Simple rooms with essential amenities.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <h5 class="card-title">Mid-range Hotels</h5>
+            <p class="card-text">Comfortable stays with modern facilities, ranging from PHP 1,200-2,800/night.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <h5 class="card-title">Homestays</h5>
+            <p class="card-text">Stay with local families for cultural exchange. Meals included, around PHP 650-950/night.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer -->
+<footer class="py-5" style="background-color: #1b4332;">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Destinations</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="Sagada.html" class="nav-link p-0 text-body-secondary">Sagada</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Bauko.html" class="nav-link p-0 text-body-secondary">Bauko</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Tadian.html" class="nav-link p-0 text-body-secondary">Tadian</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Sabangan.html" class="nav-link p-0 text-body-secondary">Sabangan</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>About Us</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="About.html" class="nav-link p-0 text-body-secondary">Our Story</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Contact.html" class="nav-link p-0 text-body-secondary">Contact</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Locations.html" class="nav-link p-0 text-body-secondary">Locations</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Support</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Help Center</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Booking Status</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Cancellations</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p style="color: white;">Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address" />
+            <button class="btn btn-success" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p style="color: white;">&copy; 2024 Discover Mountain Province. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="link-body-emphasis" href="#"><i class="bi bi-twitter"></i></a>
+        </li>
+        <li class="ms-3">
+          <a class="link-body-emphasis" href="#"><i class="bi bi-instagram"></i></a>
+        </li>
+        <li class="ms-3">
+          <a class="link-body-emphasis" href="#"><i class="bi bi-facebook"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const searchForm = document.querySelector('form[role="search"]');
+  if (searchForm) {
+    searchForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const query = document.querySelector('input[type="search"]').value.trim().toLowerCase();
+      if (query === 'sagada') {
+        window.location.href = 'Sagada.html';
+      } else if (query === 'bauko') {
+        window.location.href = 'Bauko.html';
+      } else if (query === 'tadian') {
+        window.location.href = 'Tadian.html';
+      } else if (query === 'sabangan') {
+        window.location.href = 'Sabangan.html';
+      } else {
+        window.location.href = 'Destinations.html';
+      }
+    });
+  }
+
+  // Gallery modal functionality
+  const galleryModal = document.getElementById('galleryModal');
+  const modalImage = document.getElementById('modalImage');
+  const galleryImages = document.querySelectorAll('.gallery-img');
+
+  galleryImages.forEach(img => {
+    img.addEventListener('click', function() {
+      const src = this.getAttribute('data-src');
+      modalImage.src = src;
+      modalImage.alt = this.alt;
+    });
+  });
+});
+</script>
+</body>
+</html>

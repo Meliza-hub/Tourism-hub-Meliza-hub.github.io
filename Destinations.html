@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Destinations - Discover MP</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg bg-success" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="Images/Logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-middle"> Discover MP</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html"> <i class="bi bi-house-door"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html"> <i class="bi bi-people-fill"></i> About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="Destinations.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-geo-alt"></i> Destinations
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Sagada.html">Sagada</a></li>
+              <li><a class="dropdown-item" href="Bauko.html">Bauko</a></li>
+              <li><a class="dropdown-item" href="Tadian.html">Tadian</a></li>
+              <li><a class="dropdown-item" href="Sabangan.html">Sabangan</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Bookings.html"> <i class="bi bi-calendar-check"></i> Bookings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Locations.html"><i class="bi bi-map"></i> Locations & Map</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html"><i class="bi bi-telephone"></i> Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div class="d-flex">
+          <a class="btn btn-outline-success me-2" href="Login.html">Login/Register</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+<section class="my-5 section-bg animate-on-load">
+  <h1 class="text-center mb-4">Explore Our Destinations</h1>
+  <div class="row row-cols-1 row-cols-md-4 w-75 mx-auto">
+    <div class="col">
+      <div class="card h-100 d-flex flex-column">
+        <img src="Images/Sagada.jpg" class="card-img-top" alt="Sagada Rice Terraces" height="300" width="300">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Sagada</h5>
+          <p class="card-text flex-grow-1">UNESCO World Heritage Site featuring stunning rice terraces, hanging coffins, and cave explorations. Experience the rich Igorot culture and breathtaking mountain views.</p>
+          <button type="button" class="btn btn-success mt-auto" onclick="window.location.href='Sagada.html'">Explore Now</button>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">UNESCO Heritage Site</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 d-flex flex-column">
+        <img src="Images/Bauko.jpg" class="card-img-top" alt="Bauko Rice Terraces" height="300" width="300">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Bauko</h5>
+          <p class="card-text flex-grow-1">Home to the world's highest rice terraces at 2,700 meters above sea level. Discover the engineering marvels of the Igorot people and their sustainable farming practices.</p>
+          <button type="button" class="btn btn-success mt-auto" onclick="window.location.href='Bauko.html'">Explore Now</button>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Highest Rice Terraces</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 d-flex flex-column">
+        <img src="Images/Tadian.jpg" class="card-img-top" alt="Tadian Mountain Views" height="300" width="300">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Tadian</h5>
+          <p class="card-text flex-grow-1">Known for its pristine mountain landscapes, hot springs, and traditional Igorot villages. Perfect for nature lovers and cultural immersion experiences.</p>
+          <button type="button" class="btn btn-success mt-auto" onclick="window.location.href='Tadian.html'">Explore Now</button>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Natural Hot Springs</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 d-flex flex-column">
+        <img src="Images/hero.jpg" class="card-img-top" alt="Sabangan Rice Terraces" height="300" width="300">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Sabangan</h5>
+          <p class="card-text flex-grow-1">Known for its rich cultural heritage, stunning natural landscapes, and warm hospitality. Offers a peaceful retreat with rice terraces, weaving centers, and hiking trails.</p>
+          <button type="button" class="btn btn-success mt-auto" onclick="window.location.href='Sabangan.html'">Explore Now</button>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Cultural Heritage</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer -->
+<footer class="py-5" style="background-color: black;">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Destinations</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="Sagada.html" class="nav-link p-0 text-body-secondary">Sagada</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Bauko.html" class="nav-link p-0 text-body-secondary">Bauko</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Tadian.html" class="nav-link p-0 text-body-secondary">Tadian</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Sabangan.html" class="nav-link p-0 text-body-secondary">Sabangan</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>About Us</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="About.html" class="nav-link p-0 text-body-secondary">Our Story</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Contact.html" class="nav-link p-0 text-body-secondary">Contact</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Locations.html" class="nav-link p-0 text-body-secondary">Locations & Map</a>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Support</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Help Center</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Bookings.html" class="nav-link p-0 text-body-secondary">Bookings</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Travel Tips</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p style="color: white;">Monthly digest of what's new and exciting from Mountain Province.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address" />
+            <button class="btn btn-success" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p style="color: white;">&copy; 2024 Discover MP. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="link-body-emphasis" href="#"><i class="bi bi-twitter"></i></a>
+        </li>
+        <li class="ms-3">
+          <a class="link-body-emphasis" href="#"><i class="bi bi-instagram"></i></a>
+        </li>
+        <li class="ms-3">
+          <a class="link-body-emphasis" href="#"><i class="bi bi-facebook"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const searchForm = document.querySelector('form[role="search"]');
+  if (searchForm) {
+    searchForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const query = document.querySelector('input[type="search"]').value.trim().toLowerCase();
+      if (query === 'sagada') {
+        window.location.href = 'Sagada.html';
+      } else if (query === 'bauko') {
+        window.location.href = 'Bauko.html';
+      } else if (query === 'tadian') {
+        window.location.href = 'Tadian.html';
+      } else if (query === 'sabangan') {
+        window.location.href = 'Sabangan.html';
+      } else {
+        window.location.href = 'Destinations.html';
+      }
+    });
+  }
+});
+</script>
+</body>
+</html>
+
+ 
