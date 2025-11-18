@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Locations & Map - Discover MP</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg bg-success" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="Images/Logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-middle"> Discover MP</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"> <i class="bi bi-house-door"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html"> <i class="bi bi-people-fill"></i> About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="Destinations.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-geo-alt"></i> Destinations
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Sagada.html">Sagada</a></li>
+              <li><a class="dropdown-item" href="Bauko.html">Bauko</a></li>
+              <li><a class="dropdown-item" href="Tadian.html">Tadian</a></li>
+              <li><a class="dropdown-item" href="Sabangan.html">Sabangan</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Bookings.html"> <i class="bi bi-calendar-check"></i> Bookings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="Locations.html"><i class="bi bi-map"></i> Locations & Map</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html"><i class="bi bi-telephone"></i> Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div class="d-flex">
+          <a class="btn btn-outline-success me-2" href="Login.html">Login/Register</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<section class="hero-section">
+  <div class="container">
+    <h1>Locations & Map</h1>
+    <p>Explore the key destinations in Mountain Province and find your way to adventure</p>
+  </div>
+</section>
+
+<section class="my-5 py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Destination Locations</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="location-card">
+          <div class="card-body">
+            <i class="bi bi-geo-alt-fill location-icon"></i>
+            <h5 class="card-title">Sagada</h5>
+            <p class="card-text">UNESCO World Heritage Site featuring stunning rice terraces and hanging coffins.</p>
+            <p class="card-text"><i class="bi bi-house-door"></i> Sagada, Mountain Province</p>
+            <a href="Sagada.html" class="btn-custom">Explore Sagada</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="location-card">
+          <div class="card-body">
+            <i class="bi bi-geo-alt-fill location-icon"></i>
+            <h5 class="card-title">Bauko</h5>
+            <p class="card-text">Home to the world's highest rice terraces at 2,700 meters above sea level.</p>
+            <p class="card-text"><i class="bi bi-house-door"></i> Bauko, Mountain Province</p>
+            <a href="Bauko.html" class="btn-custom">Explore Bauko</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="location-card">
+          <div class="card-body">
+            <i class="bi bi-geo-alt-fill location-icon"></i>
+            <h5 class="card-title">Tadian</h5>
+            <p class="card-text">Known for its pristine mountain landscapes and natural hot springs.</p>
+            <p class="card-text"><i class="bi bi-house-door"></i> Tadian, Mountain Province</p>
+            <a href="Tadian.html" class="btn-custom">Explore Tadian</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="location-card">
+          <div class="card-body">
+            <i class="bi bi-geo-alt-fill location-icon"></i>
+            <h5 class="card-title">Sabangan</h5>
+            <p class="card-text">Rich cultural heritage with stunning natural landscapes and weaving centers.</p>
+            <p class="card-text"><i class="bi bi-house-door"></i> Sabangan, Mountain Province</p>
+            <a href="Sabangan.html" class="btn-custom">Explore Sabangan</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="map-section">
+  <div class="container">
+    <h2 class="text-center mb-4">Interactive Map</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124822.00000000001!2d120.5!3d17.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x338f8f8f8f8f8f8f%3A0x8f8f8f8f8f8f8f8f!2sMountain%20Province%2C%20Philippines!5e0!3m2!1sen!2sph!4v1690000000000!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="transport-section">
+  <div class="container">
+    <h2 class="text-center mb-4">How to Get There</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="text-center">
+          <i class="bi bi-bus-front location-icon"></i>
+          <h5>By Bus</h5>
+          <p>Take a bus from Manila to Baguio City, then transfer to Mountain Province. Buses run regularly from major terminals.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="text-center">
+          <i class="bi bi-car-front location-icon"></i>
+          <h5>By Car</h5>
+          <p>Drive via the Halsema Highway. The journey takes about 8-10 hours from Manila. Road conditions vary by season.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="text-center">
+          <i class="bi bi-airplane location-icon"></i>
+          <h5>By Air</h5>
+          <p>Fly to Tuguegarao Airport, then take a van or bus to Mountain Province. Domestic flights available from Manila.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-5" style="background-color: #1b4332; color: white;">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5 style="color: white;">Destinations</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="Sagada.html" class="nav-link p-0" style="color: white;">Sagada</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Bauko.html" class="nav-link p-0" style="color: white;">Bauko</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Tadian.html" class="nav-link p-0" style="color: white;">Tadian</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Sabangan.html" class="nav-link p-0" style="color: white;">Sabangan</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5 style="color: white;">About Us</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="About.html" class="nav-link p-0" style="color: white;">Our Story</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Contact.html" class="nav-link p-0" style="color: white;">Contact</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Locations.html" class="nav-link p-0" style="color: white;">Locations & Map</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5 style="color: white;">Support</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0" style="color: white;">Help Center</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0" style="color: white;">Booking Status</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0" style="color: white;">Cancellations</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0" style="color: white;">FAQs</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5 style="color: white;">Subscribe to our newsletter</h5>
+          <p style="color: white;">Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address" />
+            <button class="btn btn-success" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>&copy; 2024 Discover MP. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="link-body-emphasis" href="#" style="color: white;"><i class="bi bi-twitter"></i></a>
+        </li>
+        <li class="ms-3">
+          <a class="link-body-emphasis" href="#" style="color: white;"><i class="bi bi-instagram"></i></a>
+        </li>
+        <li class="ms-3">
+          <a class="link-body-emphasis" href="#" style="color: white;"><i class="bi bi-facebook"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

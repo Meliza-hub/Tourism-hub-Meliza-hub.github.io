@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SAGADA- Discover Mountain Province</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg bg-success" data-bs-theme="dark">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="Images/Logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-middle"> Discover MP</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html"> <i class="bi bi-house-door"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html"> <i class="bi bi-people-fill"></i> About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="Destinations.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi bi-geo-alt"></i> Destinations
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item active" href="Sagada.html">Sagada</a></li>
+            <li><a class="dropdown-item" href="Bauko.html">Bauko</a></li>
+            <li><a class="dropdown-item" href="Tadian.html">Tadian</a></li>
+            <li><a class="dropdown-item" href="Sabangan.html">Sabangan</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Bookings.html"> <i class="bi bi-calendar-check"></i> Bookings</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Locations.html"><i class="bi bi-map"></i> Locations & Map</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html"><i class="bi bi-telephone"></i> Contact Us</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <div class="d-flex">
+        <a class="btn btn-outline-success me-2" href="Login.html">Login/Register</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<section class="my-5">
+  <h1 class="text-center mb-4">SAGADA</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="Images/sagada rice terraces.jpg" height="500" width="500" class="img-fluid rounded" alt="Sagada Rice Terraces">
+      </div>
+      <div class="col-md-6">
+        <h2>About Sagada</h2>
+        <p>Sagada is a UNESCO World Heritage Site featuring stunning rice terraces, hanging coffins, and cave explorations. Experience the rich Igorot culture and breathtaking mountain views.</p>
+        <p>Key attractions include the Sumaguing Cave, Lumiang Burial Cave, and the famous hanging coffins.</p>
+        <button type="button" class="btn btn-success" onclick="window.location.href='Bookings.html'">Book a Tour</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- History Section -->
+<section class="my-5 bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">History of Sagada</h2>
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <p class="lead text-center mb-4">Sagada has a rich history dating back thousands of years, shaped by the indigenous Igorot people and their harmonious relationship with nature.</p>
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Ancient Origins</h5>
+            <p>The Igorot people have inhabited these mountains for over 2,000 years, developing sophisticated agricultural systems including the famous rice terraces. These terraces were built without modern tools, showcasing incredible engineering and cultural heritage.</p>
+          </div>
+          <div class="col-md-6">
+            <h5>Spanish Colonial Period</h5>
+            <p>During the Spanish era, Sagada became a refuge for indigenous tribes escaping colonial influence. The mountainous terrain provided natural protection, preserving traditional Igorot culture and customs.</p>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-6">
+            <h5>American Influence</h5>
+            <p>The American period brought education and infrastructure, but Sagada maintained its cultural identity. The establishment of schools and churches blended with traditional Igorot practices.</p>
+          </div>
+          <div class="col-md-6">
+            <h5>Modern Recognition</h5>
+            <p>In 1995, the rice terraces were declared a UNESCO World Heritage Site, bringing global recognition to Sagada's cultural and natural significance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Activities Section -->
+<section class="my-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Activities & Adventures</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <i class="bi bi-compass text-success" style="font-size: 3rem;"></i>
+            <h5 class="card-title mt-3">Cave Exploration</h5>
+            <p class="card-text">Discover underground wonders in Sumaguing Cave and Lumiang Burial Cave. Experience thrilling spelunking adventures with expert guides.</p>
+            <ul class="list-unstyled">
+              <li>• Guided cave tours</li>
+              <li>• Underground river exploration</li>
+              <li>• Limestone formations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <i class="bi bi-tree text-success" style="font-size: 3rem;"></i>
+            <h5 class="card-title mt-3">Hiking & Trekking</h5>
+            <p class="card-text">Explore scenic trails through rice terraces and pine forests. Enjoy panoramic mountain views and encounter local wildlife.</p>
+            <ul class="list-unstyled">
+              <li>• Rice terrace walks</li>
+              <li>• Kiltepan Tower viewpoint</li>
+              <li>• Bomod-ok Falls trek</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <i class="bi bi-people text-success" style="font-size: 3rem;"></i>
+            <h5 class="card-title mt-3">Cultural Immersion</h5>
+            <p class="card-text">Learn about Igorot traditions, visit hanging coffins, and participate in cultural activities. Experience authentic tribal life.</p>
+            <ul class="list-unstyled">
+              <li>• Traditional weaving</li>
+              <li>• Igorot dance performances</li>
+              <li>• Homestay experiences</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Travel Tips Section -->
+<section class="my-5 bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Travel Tips for Sagada</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Getting There</h4>
+        <ul>
+          <li><strong>By Bus:</strong> Take a bus from Manila to Baguio (8-10 hours), then transfer to Sagada (6-8 hours)</li>
+          <li><strong>By Van:</strong> Private vans available from Baguio to Sagada for groups</li>
+          <li><strong>By Air:</strong> Fly to Tuguegarao Airport, then take transportation to Sagada</li>
+        </ul>
+        <h4>Best Time to Visit</h4>
+        <p>Dry season (November-April) offers clear skies and vibrant rice terraces. Wet season (May-October) brings lush greenery but can be rainy.</p>
+      </div>
+      <div class="col-md-6">
+        <h4>What to Bring</h4>
+        <ul>
+          <li>Comfortable hiking shoes</li>
+          <li>Light jacket or sweater (cool evenings)</li>
+          <li>Rain gear (wet season)</li>
+          <li>Flashlight for cave explorations</li>
+          <li>Modest clothing for cultural sites</li>
+        </ul>
+        <h4>Local Etiquette</h4>
+        <p>Respect local customs, dress modestly at sacred sites, and ask permission before taking photos of people. Support local businesses and guides.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="my-5">
+  <h2 class="text-center mb-4">Attractions in Sagada</h2>
+  <div class="row row-cols-1 row-cols-md-3 w-75 mx-auto">
+    <div class="col">
+      <div class="card h-100 d-flex flex-column">
+        <img src="Images/sagada rice terraces.jpg" class="card-img-top" alt="Rice Terraces" height="200">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Rice Terraces</h5>
+          <p class="card-text flex-grow-1">UNESCO World Heritage Site featuring ancient rice terraces carved into the mountains by the Igorot people. These engineering marvels span over 2,000 years and offer stunning panoramic views.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 d-flex flex-column">
+        <img src="Images/hanging coffin.jpg" class="card-img-top" alt="Hanging Coffins" height="200">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Hanging Coffins</h5>
+          <p class="card-text flex-grow-1">Ancient burial tradition where coffins are placed on cliffs, offering a unique cultural experience. Visit the Echo Valley to see these centuries-old coffins and learn about Igorot burial customs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 d-flex flex-column">
+        <img src="Images/cave 2.jpg" class="card-img-top" alt="Cave Explorations" height="200">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title">Cave Explorations</h5>
+          <p class="card-text flex-grow-1">Explore the Sumaguing Cave and other underground wonders with guided tours. Experience spelunking adventures and discover stunning limestone formations and underground rivers.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="my-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Photo Gallery</h2>
+    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-3">
+      <div class="col">
+        <img src="Images/sagada rice terraces.jpg" class="rounded gallery-img" alt="Sagada Rice Terraces" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/Sagada.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/blue soil.jpg" class="rounded gallery-img" alt="Sagada Hanging Coffins" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/hero 2.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/bomod-ok falls.webp" class="rounded gallery-img" alt="Sagada Cave Explorations" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/Hero a.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/hanging coffin.jpg" class="rounded gallery-img" alt="Sagada Mountain Views" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/hero.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/ubdeground river.jpg" class="rounded gallery-img" alt="Sagada Cultural Heritage" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/Sagada.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/sumaguing cave.jpg" class="rounded gallery-img" alt="Sagada Igorot Culture" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/hero 2.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/Marboro Hills.jpg" class="rounded gallery-img" alt="Sagada Nature" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/Hero a.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/inverted house.jpg" class="rounded gallery-img" alt="Sagada Adventures" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/hero.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/sabangan weaving.jpg" class="rounded gallery-img" alt="Sagada Landscapes" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/Sagada.jpg">
+      </div>
+      <div class="col">
+        <img src="Images/sagada cave.jpg" class="rounded gallery-img" alt="Sagada Traditions" width="200" height="200" data-bs-toggle="modal" data-bs-target="#galleryModal" data-src="Images/hero 2.jpg">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal for Gallery Lightbox -->
+<div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="galleryModalLabel">Gallery Image</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img id="modalImage" src="" class="img-fluid" alt="Gallery Image">
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="my-5 bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Best Time to Visit Sagada</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <p class="text-center">Sagada is best visited during the dry season from November to April when the weather is pleasant and the rice terraces are at their most vibrant. The wet season from May to October brings lush greenery but can make some trails slippery.</p>
+        <div class="row text-center mt-4">
+          <div class="col-md-6">
+            <h5>Dry Season</h5>
+            <p>November - April</p>
+            <p>Clear skies, comfortable temperatures</p>
+          </div>
+          <div class="col-md-6">
+            <h5>Wet Season</h5>
+            <p>May - October</p>
+            <p>Lush landscapes, occasional rain</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="my-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Local Cuisine & Culture</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Traditional Igorot Dishes</h4>
+        <ul>
+          <li><strong>Pinikpikan:</strong> Deboned chicken cooked in its own blood with herbs</li>
+          <li><strong>Etag:</strong> Smoked pork or beef, a local delicacy</li>
+          <li><strong>Pinuneg:</strong> Rice wrapped in banana leaves</li>
+          <li><strong>Vegetable dishes:</strong> Fresh mountain vegetables and herbs</li>
+        </ul>
+        <p>Experience authentic Igorot cuisine at local restaurants and homestays.</p>
+      </div>
+      <div class="col-md-6">
+        <h4>Cultural Experiences</h4>
+        <p>Sagada offers rich cultural immersion opportunities:</p>
+        <ul>
+          <li>Traditional weaving demonstrations</li>
+          <li>Igorot dance performances</li>
+          <li>Visit to indigenous communities</li>
+          <li>Learn about traditional burial practices</li>
+        </ul>
+        <p>Respect local customs and traditions during your visit.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="my-5 bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Accommodation Options</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <h5 class="card-title">Budget Guesthouses</h5>
+            <p class="card-text">Affordable stays starting from PHP 500/night. Basic amenities with authentic local experience.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <h5 class="card-title">Mid-range Hotels</h5>
+            <p class="card-text">Comfortable accommodations with modern amenities, ranging from PHP 1,500-3,000/night.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <h5 class="card-title">Homestays</h5>
+            <p class="card-text">Stay with local families to experience Igorot culture firsthand. Meals included, around PHP 800-1,200/night.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer -->
+<footer class="py-5" style="background-color: #1b4332;">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Destinations</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="Sagada.html" class="nav-link p-0 text-body-secondary">Sagada</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Bauko.html" class="nav-link p-0 text-body-secondary">Bauko</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Tadian.html" class="nav-link p-0 text-body-secondary">Tadian</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Sabangan.html" class="nav-link p-0 text-body-secondary">Sabangan</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>About Us</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="About.html" class="nav-link p-0 text-body-secondary">Our Story</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Contact.html" class="nav-link p-0 text-body-secondary">Contact</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="Locations.html" class="nav-link p-0 text-body-secondary">Locations</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Support</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Help Center</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Booking Status</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Cancellations</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p style="color: white;">Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address" />
+            <button class="btn btn-success" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p style="color: white;">&copy; 2024 Discover Mountain Province. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="link-body-emphasis" href="#"><i class="bi bi-twitter"></i></a>
+        </li>
+        <li class="ms-3">
+          <a class="link-body-emphasis" href="#"><i class="bi bi-instagram"></i></a>
+        </li>
+        <li class="ms-3">
+          <a class="link-body-emphasis" href="#"><i class="bi bi-facebook"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const searchForm = document.querySelector('form[role="search"]');
+  if (searchForm) {
+    searchForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const query = document.querySelector('input[type="search"]').value.trim().toLowerCase();
+      if (query === 'sagada') {
+        window.location.href = 'Sagada.html';
+      } else if (query === 'bauko') {
+        window.location.href = 'Bauko.html';
+      } else if (query === 'tadian') {
+        window.location.href = 'Tadian.html';
+      } else if (query === 'sabangan') {
+        window.location.href = 'Sabangan.html';
+      } else {
+        window.location.href = 'Destinations.html';
+      }
+    });
+  }
+
+  // Gallery modal functionality
+  const galleryModal = document.getElementById('galleryModal');
+  const modalImage = document.getElementById('modalImage');
+  const galleryImages = document.querySelectorAll('.gallery-img');
+
+  galleryImages.forEach(img => {
+    img.addEventListener('click', function() {
+      const src = this.getAttribute('data-src');
+      modalImage.src = src;
+      modalImage.alt = this.alt;
+    });
+  });
+});
+</script>
+</body>
+</html>
